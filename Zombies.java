@@ -48,6 +48,7 @@ public class Zombies extends Actor
             return false;
         }
     }
+<<<<<<< HEAD
     public boolean hitFire(){
         Actor bullet = getOneIntersectingObject(FireBullet.class);
         if (bullet != null){
@@ -58,6 +59,8 @@ public class Zombies extends Actor
             return false;
         }
     }
+=======
+>>>>>>> refs/remotes/origin/main
     public int hpUpdate(int hp, boolean hitStandart, boolean hitFreeze){
         int damage;
         if (hitStandart == true){
@@ -108,9 +111,13 @@ public class Zombies extends Actor
         Frost frost = (Frost) getOneIntersectingObject(Frost.class);
         StandardPlants standardPlants = (StandardPlants) getOneIntersectingObject(StandardPlants.class);
         Sunflower sunflower = (Sunflower) getOneIntersectingObject(Sunflower.class);
+<<<<<<< HEAD
         FirePlant fireplant = (FirePlant)getOneIntersectingObject(FirePlant.class);
         Mine mine = (Mine)getOneIntersectingObject(Mine.class);
         Walnut walnut = (Walnut)getOneIntersectingObject(Walnut.class);
+=======
+        Mine mine = (Mine)getOneIntersectingObject(Mine.class);
+>>>>>>> refs/remotes/origin/main
         if (doppel != null){
             doppel.hpUpdate(damage);
         }
@@ -126,6 +133,7 @@ public class Zombies extends Actor
         else if (mine != null){
             mine.hpUpdate(damage);
         }
+<<<<<<< HEAD
         else if (fireplant != null){
             fireplant.hpUpdate(damage);
         }
@@ -133,5 +141,7 @@ public class Zombies extends Actor
         else if (walnut != null){
             walnut.hpUpdate(damage);
         }
+=======
+>>>>>>> refs/remotes/origin/main
     }
 }

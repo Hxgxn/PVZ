@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #BlueJ class context
 comment0.target=Field
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ Field\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
@@ -8,3 +9,17 @@ comment2.params=x\ y
 comment2.target=boolean\ checkIfInField(int,\ int)
 comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
 numComments=3
+=======
+#BlueJ class context
+comment0.target=Field
+comment1.params=positionNew
+comment1.target=Field(int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Field\n
+comment2.params=
+comment2.target=boolean\ checkIfPlantPlaced()
+comment3.params=plantNew
+comment3.target=void\ setPlant(java.lang.String)
+comment4.params=
+comment4.target=void\ act()
+numComments=5
+>>>>>>> refs/remotes/origin/main

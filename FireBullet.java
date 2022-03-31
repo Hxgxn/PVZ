@@ -8,6 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class FireBullet extends Bullets
 {
+<<<<<<< HEAD
     /**
      * !!! FEUERSTRAHL EINFÜGEN !!!
      * 
@@ -31,5 +32,19 @@ public class FireBullet extends Bullets
         if (counter >= 25){
             getWorld().removeObject(this);
         }
+=======
+    private GreenfootImage FireBullet = new GreenfootImage("FireBullet.png");
+    public FireBullet(){
+        FireBullet.scale(50,50);
+        setImage(FireBullet);
+    }
+    /**
+     * Act - do whatever the FireBullet wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+        // Add your action code here.
+>>>>>>> refs/remotes/origin/main
     }    
 }

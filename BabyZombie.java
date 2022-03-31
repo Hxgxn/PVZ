@@ -23,7 +23,10 @@ public class BabyZombie extends Zombies
     private boolean hitFreeze = false;
     private boolean hitStandart = false;
     private boolean hitMine = false;
+<<<<<<< HEAD
     private boolean hitFire = false;
+=======
+>>>>>>> refs/remotes/origin/main
     private int hitdamage;
     public BabyZombie() {
         babyZombie.scale(80, 80);
@@ -41,9 +44,12 @@ public class BabyZombie extends Zombies
         else if (hitMine() == true){
             hitMine = true;
         }
+<<<<<<< HEAD
         else if (hitFire() == true){
             hitFire = true;
         }
+=======
+>>>>>>> refs/remotes/origin/main
     }
     public void act() 
     {
@@ -65,9 +71,12 @@ public class BabyZombie extends Zombies
         else if (hitMine){
             hp = hp - 280;
         }
+<<<<<<< HEAD
         else if (hitFire){
             hp = hp - 5;
         }
+=======
+>>>>>>> refs/remotes/origin/main
         if (!getFight()){
             moveZombie(steplenght, divisor, counter);
         }
@@ -77,7 +86,10 @@ public class BabyZombie extends Zombies
         kill(hp);
         hitStandart = false;
         hitFreeze = false;
+<<<<<<< HEAD
         hitMine = false;
         hitFire = false;
+=======
+>>>>>>> refs/remotes/origin/main
     }
 }

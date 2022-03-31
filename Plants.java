@@ -15,7 +15,11 @@ public class Plants extends Actor
      */
     public void act() 
     {
+<<<<<<< HEAD
 
+=======
+        // Add your action code here.
+>>>>>>> refs/remotes/origin/main
     }
     public void shoot(Actor actor, int x, int y){
         getWorld().addObject(actor, x, y);

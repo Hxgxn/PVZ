@@ -12,14 +12,22 @@ public class Mine extends Bullets
      * Act - do whatever the Mine wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+<<<<<<< HEAD
     private GreenfootImage Mine_Down = new GreenfootImage("Mine_Down.png");
+=======
+>>>>>>> refs/remotes/origin/main
     private GreenfootImage Mine = new GreenfootImage("Mine.png");
     public boolean activated;
     private int counter;
     public int hp;
     public Mine(){
+<<<<<<< HEAD
         setImage(Mine_Down);
         Mine_Down.scale(120,120);
+=======
+        setImage(Mine);
+        Mine.scale(120,120);
+>>>>>>> refs/remotes/origin/main
         activated = false;
         counter = 0;
         hp = 100;
@@ -27,6 +35,7 @@ public class Mine extends Bullets
     public void act() 
     {
         activation();
+<<<<<<< HEAD
         if( activated == true){
             
             setImage(Mine);
@@ -38,6 +47,9 @@ public class Mine extends Bullets
         }
         kill(hp);
         
+=======
+        kill(hp);
+>>>>>>> refs/remotes/origin/main
     }
     public void activation(){
         if (counter == 100){

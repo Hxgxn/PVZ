@@ -23,7 +23,10 @@ public class StandardZombie extends Zombies
     private boolean hitFreeze = false;
     private boolean hitStandart = false;
     private boolean hitMine = false;
+<<<<<<< HEAD
     private boolean hitFire = false;
+=======
+>>>>>>> refs/remotes/origin/main
     private int hitdamage;
     public StandardZombie(){
         StandardZombie.scale(60, 100);
@@ -42,9 +45,12 @@ public class StandardZombie extends Zombies
         else if (hitMine() == true){
             hitMine = true;
         }
+<<<<<<< HEAD
         else if (hitFire() == true){
             hitFire = true;
         }
+=======
+>>>>>>> refs/remotes/origin/main
     }
     public void act() 
     {
@@ -66,9 +72,12 @@ public class StandardZombie extends Zombies
         else if (hitMine){
             hp = hp - 280;
         }
+<<<<<<< HEAD
         else if (hitFire){
             hp -= 5;
         }
+=======
+>>>>>>> refs/remotes/origin/main
         if (!getFight()){
             moveZombie(steplenght, divisor, counter);
         }
@@ -78,7 +87,10 @@ public class StandardZombie extends Zombies
         kill(hp);
         hitStandart = false;
         hitFreeze = false;
+<<<<<<< HEAD
         hitMine = false;
         hitFire = false;
+=======
+>>>>>>> refs/remotes/origin/main
     }
 }
