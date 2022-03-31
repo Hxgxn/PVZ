@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Zombies
+comment0.text=\n\ Write\ a\ description\ of\ class\ Zombies\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ Zombies\ wants\ to\ do.\ This\ method\ is\ called\ \ \ \ \ \n\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment2.params=
+comment2.target=boolean\ hitFreeze()
+comment3.params=
+comment3.target=boolean\ hitStandart()
+comment4.params=
+comment4.target=boolean\ hitMine()
+comment5.params=hp\ hitStandart\ hitFreeze
+comment5.target=int\ hpUpdate(int,\ boolean,\ boolean)
+comment6.params=speed\ divisor\ counter
+comment6.target=void\ moveZombie(int,\ int,\ int)
+comment7.params=hp
+comment7.target=void\ kill(int)
+comment8.params=
+comment8.target=boolean\ getFight()
+comment9.params=damage
+comment9.target=void\ damage(int)
+numComments=10
