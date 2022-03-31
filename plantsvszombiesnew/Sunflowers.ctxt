@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Sunflowers
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Counter\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=int\ getFlowers()
+comment2.params=newValue
+comment2.target=int\ setFlowers(int)
+comment3.params=
+comment3.target=Sunflowers()
+comment4.params=
+comment4.target=void\ act()
+comment4.text=private\ void\ updateImage()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ GreenfootImage\ image\ \=\ getImage();\r\n\ \ \ \ \ \ \ \ image.clear();\r\n\ \ \ \ \ \ \ \ image.drawString(text\ +\ sunflowers,\ 1,\ 12);\r\n}
+comment5.params=score
+comment5.target=void\ add(int)
+comment6.params=
+comment6.target=int\ getValue()
+numComments=7

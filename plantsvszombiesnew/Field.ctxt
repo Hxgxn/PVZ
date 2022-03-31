@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Field
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Field\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=x1\ x2\ y1\ y2
+comment1.target=Field(int,\ int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Field\r\n
+comment2.params=x\ y
+comment2.target=boolean\ checkIfInField(int,\ int)
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+numComments=3

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Mine
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Mine\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Mine()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ activation()
+comment4.params=hp
+comment4.target=void\ kill(int)
+comment5.params=damage
+comment5.target=void\ hpUpdate(int)
+numComments=6
